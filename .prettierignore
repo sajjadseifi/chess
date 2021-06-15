@@ -1,0 +1,7 @@
+/.yarn
+/node_modules
+/public
+/dist
+*.svg
+# evrything in root
+/*.* 
