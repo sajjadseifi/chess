@@ -1,0 +1,21 @@
+{
+  "name": "Chees",
+  "version": "1.0.0",
+  "description": "chess game with type script and console game ",
+  "main": "index.js",
+  "repository": "https://github.com/sajjadseifi/chess.git",
+  "author": "sajjad seifi <6482249-sajjadseifi@users.noreply.gitlab.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node dist/build",
+    "format": "yarn prettier --write .",
+    "format:check": "yarn prettier --check .",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.1"
+  },
+  "dependencies": {
+    "eslint": "^7.28.0"
+  }
+}

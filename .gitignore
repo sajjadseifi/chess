@@ -1,0 +1,5 @@
+/dist
+/.yarn
+/.dist
+*.svg
+/node_modules
