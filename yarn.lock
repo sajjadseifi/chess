@@ -49,15 +49,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"Chees@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "Chees@workspace:."
-  dependencies:
-    eslint: ^7.28.0
-    prettier: ^2.3.1
-  languageName: unknown
-  linkType: soft
-
 "acorn-jsx@npm:^5.3.1":
   version: 5.3.1
   resolution: "acorn-jsx@npm:5.3.1"
@@ -192,6 +183,15 @@ __metadata:
   checksum: 445c12db7aeed0046500a1e4184d31209a77d165654c885a789c41c8598a6a95bd2392180987cac572c967b93a2a730dda778bb7f87fa06ca63fd8592f8cc59f
   languageName: node
   linkType: hard
+
+"chees@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "chees@workspace:."
+  dependencies:
+    eslint: ^7.28.0
+    prettier: ^2.3.1
+  languageName: unknown
+  linkType: soft
 
 "color-convert@npm:^1.9.0":
   version: 1.9.3

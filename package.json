@@ -7,7 +7,8 @@
   "author": "sajjad seifi <6482249-sajjadseifi@users.noreply.gitlab.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node dist/build",
+    "start": "node dist/build",
+    "dev": "yarn start",
     "format": "yarn prettier --write .",
     "format:check": "yarn prettier --check .",
     "lint": "eslint"
