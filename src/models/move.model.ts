@@ -1,24 +1,24 @@
-export interface IN {
-  moveN: () => {};
+export interface INorth {
+  moveN: Function;
 }
-export interface IS {
-  moveS: () => {};
+export interface ISouth {
+  moveS: Function;
 }
-export interface IW {
-  moveW: () => {};
+export interface IWest {
+  moveW: Function;
 }
-export interface IE {
-  moveE: () => {};
+export interface IEast {
+  moveE: Function;
 }
-export interface ISW {
-  moveSW: () => {};
+export interface ISouthWest {
+  moveSW: Function;
 }
-export interface INW {
-  moveNW: () => {};
+export interface INorthEast {
+  moveNE: Function;
 }
-export interface ISE {
-  moveSE: () => {};
+export interface ISouthEast {
+  moveSE: Function;
 }
-export interface INE {
-  moveNE: () => {};
+export interface INorthWest {
+  moveNW: Function;
 }
