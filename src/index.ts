@@ -1,1 +1,2 @@
-const data = []
+const data = [];
+console.log('');

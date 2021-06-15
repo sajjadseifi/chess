@@ -1,24 +1,24 @@
 export interface IN {
-  moveN: () => {}
+  moveN: () => {};
 }
 export interface IS {
-  moveS: () => {}
+  moveS: () => {};
 }
 export interface IW {
-  moveW: () => {}
+  moveW: () => {};
 }
 export interface IE {
-  moveE: () => {}
+  moveE: () => {};
 }
 export interface ISW {
-  moveSW: () => {}
+  moveSW: () => {};
 }
 export interface INW {
-  moveNW: () => {}
+  moveNW: () => {};
 }
 export interface ISE {
-  moveSE: () => {}
+  moveSE: () => {};
 }
 export interface INE {
-  moveNE: () => {}
+  moveNE: () => {};
 }

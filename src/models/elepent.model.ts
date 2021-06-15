@@ -1,4 +1,4 @@
-import { IPiece, Piece } from './piece.model'
+import { IPiece, Piece } from './piece.model';
 
 export interface IElepent {}
 

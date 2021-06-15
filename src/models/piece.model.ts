@@ -1,11 +1,11 @@
-import { PieceType } from '../types/piece.type'
+import { PieceType } from '../types/piece.type';
 
 export interface IPiece {
-  id: string
-  name: string
-  type: PieceType
-  row?: number
-  col?: number
+  id: string;
+  name: string;
+  type: PieceType;
+  row?: number;
+  col?: number;
 }
 
 export class Piece implements IPiece {
