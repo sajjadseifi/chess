@@ -20,6 +20,7 @@ export class Chess implements IChess {
     this.pieces = new Array(this.height);
     for (let i = 0; i < this.pieces.length; i++) this.pieces[i] = new Array(this.width);
   };
+
   reset = () => {
     this.initial();
   };
