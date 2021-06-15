@@ -7,14 +7,20 @@
   "author": "sajjad seifi <6482249-sajjadseifi@users.noreply.gitlab.com>",
   "license": "MIT",
   "scripts": {
+    "play": "ts-node src/index",
     "start": "node dist/build",
-    "dev": "yarn start",
+    "w": "tsc --w",
+    "dev": "concurrently -k \"tsc -p ./src -w\" \"node ./dist/build\"",
     "format": "yarn prettier --write .",
     "format:check": "yarn prettier --check .",
     "lint": "eslint"
   },
   "devDependencies": {
-    "prettier": "^2.3.1"
+    "@types/node": "^15.12.2",
+    "concurrently": "^6.2.0",
+    "prettier": "^2.3.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.2"
   },
   "dependencies": {
     "eslint": "^7.28.0"
