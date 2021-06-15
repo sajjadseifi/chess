@@ -1,24 +1,24 @@
 export interface INorth {
-  moveN: Function;
+  moveN(): void;
 }
 export interface ISouth {
-  moveS: Function;
+  moveS(): void;
 }
 export interface IWest {
-  moveW: Function;
+  moveW(): void;
 }
 export interface IEast {
-  moveE: Function;
+  moveE(): void;
 }
 export interface ISouthWest {
-  moveSW: Function;
+  moveSW(): void;
 }
 export interface INorthEast {
-  moveNE: Function;
+  moveNE(): void;
 }
 export interface ISouthEast {
-  moveSE: Function;
+  moveSE(): void;
 }
 export interface INorthWest {
-  moveNW: Function;
+  moveNW(): void;
 }
